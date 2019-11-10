@@ -24,10 +24,18 @@ namespace IoC.Test
     public class Container_GetInstance : ContainerTestBase
     {
         [Test]
-        public void GetInstanceWithParams()
+        public void GetInstanceWithNoParams()
         {
             var subject = Container.GetInstance(typeof(A));
             Assert.AreSame(subject.GetType(), typeof(A));
+        }
+
+        [Test]
+        public void GetInstanceWithParams()
+        {
+            var subject = (B)Container.GetInstance(typeof(B));
+            Assert.AreSame(subject.GetType(), typeof(B));
+            Assert.NotNull(subject.A);
         }
     }
 
@@ -35,4 +43,19 @@ namespace IoC.Test
 
 
     class A { }
+
+    class B
+    {
+        public A A { get; }
+
+        public B()
+        {
+
+        }
+
+        public B(A a)
+        {
+            A = a;
+        } 
+    }
 }
