@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC.Scratch", "IoC.Scratch\IoC.Scratch.csproj", "{6F496FF3-4898-4E8C-AF0E-8A5110DC499C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC.Test", "IoC.Test\IoC.Test.csproj", "{65979A95-4641-43F0-B545-4D64D7FB37DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F496FF3-4898-4E8C-AF0E-8A5110DC499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F496FF3-4898-4E8C-AF0E-8A5110DC499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F496FF3-4898-4E8C-AF0E-8A5110DC499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F496FF3-4898-4E8C-AF0E-8A5110DC499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65979A95-4641-43F0-B545-4D64D7FB37DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65979A95-4641-43F0-B545-4D64D7FB37DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65979A95-4641-43F0-B545-4D64D7FB37DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65979A95-4641-43F0-B545-4D64D7FB37DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9E0CB3B-3BA6-4E83-87B8-B91F464D5D95}
+	EndGlobalSection
+EndGlobal
